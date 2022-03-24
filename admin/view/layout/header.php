@@ -462,23 +462,12 @@
                         </li>
                         <li class="nav-header">برچسب‌ها</li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="logout.php" class="nav-link">
                                 <i class="nav-icon fa fa-circle-o text-danger"></i>
-                                <p class="text">مهم</p>
+                                <p class="text">خروج</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fa fa-circle-o text-warning"></i>
-                                <p>هشدار</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fa fa-circle-o text-info"></i>
-                                <p>اطلاعات</p>
-                            </a>
-                        </li>
+
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

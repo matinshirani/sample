@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cddc4c28-ecff-43a6-9384-1e95ede65b72" name="Changes" comment="" />
+    <list default="true" id="cddc4c28-ecff-43a6-9384-1e95ede65b72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/layout/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/layout/header.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/admin/view/layout/header.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/login.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/controller/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/admin/model/public.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="100" />
+      <option value="200" />
+      <option value="300" />
+    </hideBySeverity>
+    <option name="sortBySeverity" value="false" />
   </component>
   <component name="ProjectId" id="26joM9Y8S5GxpEjU2aP9Cf0KTMk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,6 +69,10 @@
       <option name="presentableId" value="Default" />
       <updated>1647946334376</updated>
       <workItem from="1647946338471" duration="3575000" />
+      <workItem from="1647979098598" duration="2785000" />
+      <workItem from="1647982118571" duration="2082000" />
+      <workItem from="1648034914691" duration="2644000" />
+      <workItem from="1648061322413" duration="3191000" />
     </task>
     <servers />
   </component>
