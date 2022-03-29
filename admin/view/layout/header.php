@@ -224,6 +224,29 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa-edit"></i>
+                                <p>
+                                    دسته بندی محصولات
+                                    <i class="fa fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="index.php?c=procat&a=add" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>اضافه کردن دسته بندی</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="index.php?c=procat&a=list" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>لیست دسته بندی ها</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
 
                         <li class="nav-header">مثال‌ها</li>
                         <li class="nav-item">
