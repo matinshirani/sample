@@ -45,7 +45,7 @@ var factory = function( $, DataTable ) {
  * table you want to have this feature enabled on. Note that the 'S' must come
  * AFTER the 't' parameter in `dom`.
  *
- * Key features include:
+ * Key images include:
  *   <ul class="limit_length">
  *     <li>Speed! The aim of Scroller for DataTables is to make rendering large data sets fast</li>
  *     <li>Full compatibility with deferred rendering in DataTables 1.9 for maximum speed</li>

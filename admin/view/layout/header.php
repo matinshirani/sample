@@ -247,16 +247,47 @@
                                 </li>
                             </ul>
                         </li>
-
-                        <li class="nav-header">مثال‌ها</li>
-                        <li class="nav-item">
-                            <a href="pages/calendar.html" class="nav-link">
-                                <i class="nav-icon fa fa-calendar"></i>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa-edit"></i>
                                 <p>
-                                    تقویم
-                                    <span class="badge badge-info right">2</span>
+                                    محصولات
+                                    <i class="fa fa-angle-left right"></i>
                                 </p>
                             </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="index.php?c=product&a=add" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>اضافه کردن محصول</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="index.php?c=product&a=list" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>لیست محصولات</p>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa-edit"></i>
+                                <p>
+                                    کاربران
+                                    <i class="fa fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="index.php?c=users&a=list" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>لیست کاربران</p>
+                                    </a>
+                                </li>
+                            </ul>
+
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
@@ -268,24 +299,23 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/mailbox/mailbox.html" class="nav-link">
+                                    <a href="index.php?c=contact&a=list" class="nav-link">
                                         <i class="fa fa-circle-o nav-icon"></i>
                                         <p>اینباکس</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="pages/mailbox/compose.html" class="nav-link">
-                                        <i class="fa fa-circle-o nav-icon"></i>
-                                        <p>ایجاد</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/mailbox/read-mail.html" class="nav-link">
-                                        <i class="fa fa-circle-o nav-icon"></i>
-                                        <p>خواندن</p>
-                                    </a>
-                                </li>
                             </ul>
+                        </li>
+
+                        <li class="nav-header">مثال‌ها</li>
+                        <li class="nav-item">
+                            <a href="pages/calendar.html" class="nav-link">
+                                <i class="nav-icon fa fa-calendar"></i>
+                                <p>
+                                    تقویم
+                                    <span class="badge badge-info right">2</span>
+                                </p>
+                            </a>
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">

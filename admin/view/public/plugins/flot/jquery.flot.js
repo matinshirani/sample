@@ -1281,7 +1281,7 @@ Licensed under the MIT license.
                 placeholder.css("position", "relative"); // for positioning labels and overlay
 
             surface = new Canvas("flot-base", placeholder);
-            overlay = new Canvas("flot-overlay", placeholder); // overlay canvas for interactive features
+            overlay = new Canvas("flot-overlay", placeholder); // overlay canvas for interactive images
 
             ctx = surface.context;
             octx = overlay.context;
@@ -2789,7 +2789,7 @@ Licensed under the MIT license.
         }
 
 
-        // interactive features
+        // interactive images
 
         var highlights = [],
             redrawTimeout = null;

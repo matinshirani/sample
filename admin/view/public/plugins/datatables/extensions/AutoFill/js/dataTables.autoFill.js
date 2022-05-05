@@ -27,7 +27,7 @@ var factory = function( $, DataTable ) {
 "use strict";
 
 /** 
- * AutoFill provides Excel like auto-fill features for a DataTable
+ * AutoFill provides Excel like auto-fill images for a DataTable
  *
  * @class AutoFill
  * @constructor

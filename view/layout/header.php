@@ -49,8 +49,8 @@ $menu=$header->menuparent();
                         <ul class="navbar-nav">
                             <?php foreach ($menu as $val): ?>
                             <li class="nav-item dropdown">
-                                <a class="nav-link " href="<?php echo $val['url']; ?>" id="navbarDropdown_3"
-                                   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link" href="<?php echo $val['url']; ?>" id="navbarDropdown_3"
+                                   role="button"  aria-haspopup="true" aria-expanded="false">
                                     <?php echo $val['title']; ?>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
@@ -63,8 +63,6 @@ $menu=$header->menuparent();
                                 </div>
                             </li>
                             <?php endforeach; ?>
-
-
                         </ul>
                     </div>
                     <div class="hearer_icon d-flex align-items-center">

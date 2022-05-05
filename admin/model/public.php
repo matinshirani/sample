@@ -29,5 +29,18 @@ class user extends config {
 
     }
 }
+class upload extends config{
+    public function uploader($file, $directory){
+        $name=$file['name'];
+        $arr=explode(".", $name);
+        $ext=end($arr);
+        $newname=rand() . "." . $ext;
+        $from=$file['tmp_name'];
+        $to=$directory . $newname;
+        move_uploaded_file($from, $to);
+        return $to;
+
+    }
+}
 
 ?>

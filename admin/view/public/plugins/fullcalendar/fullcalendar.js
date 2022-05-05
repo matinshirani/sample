@@ -845,7 +845,7 @@ var setLocalValues; // function defined below
 // -------------------------------------------------------------------------------------------------
 
 // Creates a new moment, similar to the vanilla moment(...) constructor, but with
-// extra features (ambiguous time, enhanced formatting). When given an existing moment,
+// extra images (ambiguous time, enhanced formatting). When given an existing moment,
 // it will function as a clone (and retain the zone of the moment). Anything else will
 // result in a moment in the local zone.
 fc.moment = function() {

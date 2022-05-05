@@ -29,7 +29,7 @@ if(!Array.isArray) {
  * https://github.com/Edicy/wysihtml5
  *
  * Author: Christopher Blum (https://github.com/tiff)
- * Secondary author of extended features: Oliver Pulges (https://github.com/pulges)
+ * Secondary author of extended images: Oliver Pulges (https://github.com/pulges)
  *
  * Copyright (C) 2012 XING AG
  * Licensed under the MIT license (MIT)
@@ -2848,7 +2848,7 @@ var wysihtml5 = {
             return backward;
         }
 
-        // Test for the Range/TextRange and Selection features required
+        // Test for the Range/TextRange and Selection images required
         // Test for ability to retrieve selection
         var implementsWinGetSelection = isHostMethod(window, "getSelection"),
             implementsDocSelection = util.isHostObject(document, "selection");
@@ -4181,7 +4181,7 @@ Base = Base.extend({
 		return String(this.valueOf());
 	}
 });;/**
- * Detect browser support for specific features
+ * Detect browser support for specific images
  */
 wysihtml5.browser = (function() {
   var userAgent   = navigator.userAgent,

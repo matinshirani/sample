@@ -196,30 +196,14 @@
             </div>
         </div>
         <div class="row justify-content-center">
+            <?php foreach ($features_list as $val):?>
             <div class="col-lg-3 col-sm-6">
                 <div class="single_feature_part">
-                    <img src="public/img/icon/feature_icon_1.svg" alt="#">
-                    <h4>پشتیبانی کارت های اعتباری</h4>
+                    <img src="admin/<?php echo $val['image']; ?>" alt="#">
+                    <h4><?php echo $val['title']; ?></h4>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature_part">
-                    <img src="public/img/icon/feature_icon_2.svg" alt="#">
-                    <h4>سفارش آنلاین</h4>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature_part">
-                    <img src="public/img/icon/feature_icon_3.svg" alt="#">
-                    <h4>تحویل رایگان</h4>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_feature_part">
-                    <img src="public/img/icon/feature_icon_4.svg" alt="#">
-                    <h4>محصولات همراه با جایزه</h4>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

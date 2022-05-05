@@ -19,7 +19,7 @@ class user extends config
     public function register($data)
     {
         $password = sha1($data['password']);
-        $this->db->query("insert into user_tbl (email,password,name,admin,img,lastname) VALUES ('$data[email]', '$password', '$data[name]', '0', '', '')");
+        $this->db->query("insert into user_tbl (email,password,name,admin, lastname) VALUES ('$data[email]', '$password', '$data[name]', '0', '')");
         header("location:index.php");
     }
 }

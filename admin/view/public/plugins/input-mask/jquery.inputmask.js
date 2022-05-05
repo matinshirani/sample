@@ -1446,7 +1446,7 @@
                 showTooltip: false, //show the activemask as tooltip
                 numericInput: false, //numericInput input direction style (input shifts to the left while holding the caret position)
                 //numeric basic properties
-                isNumeric: false, //enable numeric features
+                isNumeric: false, //enable numeric images
                 radixPoint: "", //".", // | ","
                 skipRadixDance: false, //disable radixpoint caret positioning
                 rightAlignNumerics: true, //align numerics to the right

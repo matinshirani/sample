@@ -63,7 +63,7 @@
 	 * DataTables is a plug-in for the jQuery Javascript library. It is a highly
 	 * flexible tool, based upon the foundations of progressive enhancement,
 	 * which will add advanced interaction controls to any HTML table. For a
-	 * full list of features please refer to
+	 * full list of images please refer to
 	 * [DataTables.net](href="http://datatables.net).
 	 *
 	 * Note that the `DataTable` object is not a global variable but is aliased
@@ -3503,7 +3503,7 @@
 	
 	
 	/**
-	 * Redraw the table - taking account of the various features which are enabled
+	 * Redraw the table - taking account of the various images which are enabled
 	 *  @param {object} oSettings dataTables settings object
 	 *  @param {boolean} [holdPosition] Keep the current paging position. By default
 	 *    the paging is reset to the first page
@@ -3661,7 +3661,7 @@
 			}
 			else if ( DataTable.ext.feature.length !== 0 )
 			{
-				/* Plug-in features */
+				/* Plug-in images */
 				var aoFeatures = DataTable.ext.feature;
 				for ( var k=0, kLen=aoFeatures.length ; k<kLen ; k++ )
 				{
@@ -3673,7 +3673,7 @@
 				}
 			}
 	
-			/* Add to the 2D features array */
+			/* Add to the 2D images array */
 			if ( featureNode )
 			{
 				var aanFeatures = oSettings.aanFeatures;
@@ -4671,7 +4671,7 @@
 	
 	
 	/**
-	 * Draw the table for the first time, adding all required features
+	 * Draw the table for the first time, adding all required images
 	 *  @param {object} settings dataTables settings object
 	 *  @memberof DataTable#oApi
 	 */
@@ -4753,7 +4753,7 @@
 	
 	
 	/**
-	 * Draw the table for the first time, adding all required features
+	 * Draw the table for the first time, adding all required images
 	 *  @param {object} oSettings dataTables settings object
 	 *  @param {object} [json] JSON from the server that completed the table, if using Ajax source
 	 *    with client-side processing (optional)
@@ -6349,7 +6349,7 @@
 			// Store the saved state so it might be accessed at any time
 			settings.oLoadedState = $.extend( true, {}, s );
 	
-			// Restore key features - todo - for 1.11 this needs to be done by
+			// Restore key images - todo - for 1.11 this needs to be done by
 			// subscribed events
 			if ( s.start !== undefined ) {
 				settings._iDisplayStart    = s.start;
@@ -11191,7 +11191,7 @@
 	
 	
 		/**
-		 * Classes that DataTables assigns to the various components and features
+		 * Classes that DataTables assigns to the various components and images
 		 * that it adds to the HTML table. This allows classes to be configured
 		 * during initialisation in addition to through the static
 		 * {@link DataTable.ext.oStdClasses} object).
@@ -11857,7 +11857,7 @@
 	
 	
 		/**
-		 * DataTables features six different built-in options for the buttons to
+		 * DataTables images six different built-in options for the buttons to
 		 * display for pagination control:
 		 *
 		 * * `numbers` - Page number buttons only
@@ -12897,7 +12897,7 @@
 	 */
 	DataTable.models.oSettings = {
 		/**
-		 * Primary features of DataTables and their enablement state.
+		 * Primary images of DataTables and their enablement state.
 		 *  @namespace
 		 */
 		"oFeatures": {
@@ -13122,7 +13122,7 @@
 	
 	
 		/**
-		 * Array referencing the nodes which are used for the features. The
+		 * Array referencing the nodes which are used for the images. The
 		 * parameters of this object match what is allowed by sDom - i.e.
 		 *   <ul>
 		 *     <li>'l' - Length changing</li>
@@ -13879,7 +13879,7 @@
 		 *  @type array
 		 *
 		 *  @example
-		 *    $.fn.dataTable.ext.features.push( {
+		 *    $.fn.dataTable.ext.images.push( {
 		 *      "fnInit": function( oSettings ) {
 		 *        return new TableTools( { "oDTSettings": oSettings } );
 		 *      },
