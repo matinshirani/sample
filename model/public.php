@@ -28,6 +28,17 @@ class header extends config {
         }
     }
 }
+class settings extends config{
+    public function settings(){
+        $sql=$this->db->query("select * from settings_tbl");
+        $settings=$sql->fetch();
+        return $settings;
+    }
+}
+$obj=new settings();
+$settings=$obj->settings();
+
+
 
 
 

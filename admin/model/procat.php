@@ -2,8 +2,8 @@
 class procat extends config{
     public function addprocat($data){
 //        var_dump($data);die;
-        $value="'$data[title]', '$data[status]', '$data[chid]', '$data[url]' ";
-        $this->db->query("insert into procat_tbl (title, status, chid, url) values ($value)");
+        $value="'$data[title]', '$data[status]', '$data[chid]' ";
+        $this->db->query("insert into procat_tbl (title, status, chid) values ($value)");
     }
     public function parentcat(){
         $sql=$this->db->query("select * from procat_tbl where chid='0'");
@@ -29,7 +29,7 @@ class procat extends config{
         return $row;
     }
     public function editprocat($data, $id){
-        $this->db->query("update procat_tbl set title='$data[title]', status='$data[status]', chid='$data[chid]', url='$data[url]' where id='$id'");
+        $this->db->query("update procat_tbl set title='$data[title]', status='$data[status]', chid='$data[chid]' where id='$id'");
     }
 }
 

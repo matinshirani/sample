@@ -6,24 +6,24 @@
                 <div class="col-lg-8">
                     <div class="footer_menu">
                         <div class="footer_logo">
-                            <a href="index.html"><img src="public/img/logo.png" alt="#"></a>
+                            <a href="<?php echo $settings['link_logo']; ?>"><img src="admin/<?php echo $settings['logo']; ?>" alt="#"></a>
                         </div>
-                        <div class="footer_menu_item">
+                        <!--<div class="footer_menu_item">
                             <a href="index.html">صفحه اصلی</a>
 
                             <a href="product_list.html">محصولات</a>
                             <a href="#">صفحات</a>
                             <a href="blog.html">وبلاگ</a>
                             <a href="contact.html">تماس با ما</a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="social_icon">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="<?php echo $settings['facebook']; ?>"><i class="fab fa-facebook-f"></i></a>
+                        <a href="<?php echo $settings['instagram']; ?>"><i class="fab fa-instagram"></i></a>
+                        <a href="<?php echo $settings['g_plus']; ?>"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="<?php echo $settings['linkedin']; ?>"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

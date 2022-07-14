@@ -10,6 +10,9 @@ class contact extends config{
         $row=$sql->fetch();
         return $row;
     }
+    public function delete_contact($id){
+        $this->db->query("delete from contact_tbl where id='$id'");
+    }
 }
 
 ?>

@@ -18,10 +18,6 @@
             <div class="col-md-4">
                 <div class="product_sidebar">
                     <div class="single_sedebar">
-                        <form action="#">
-                            <input type="text" name="#" placeholder="جست و جو">
-                            <i class="ti-search"></i>
-                        </form>
                     </div>
                     <div class="single_sedebar">
                         <div class="select_option">
@@ -41,9 +37,9 @@
                         <div class="col-lg-6 col-sm-6">
                             <?php foreach ($list as $val): ?>
                             <div class="single_product_item">
-                                <img src="admin/<?php echo $val['img1']; ?>" alt="عکس محضول" class="img-fluid">
+                                <img src="admin/<?php echo $val['img1']; ?>" alt="عکس محصول" class="img-fluid">
                                 <h3> <a href="index.php?c=product&a=product&id=<?php echo $val['id']; ?>"> <?php echo $val['title']; ?> </a> </h3>
-                                <p>قیمت : ‌<?php echo $val['price']; ?></p>
+                                <p>قیمت : ‌<?php echo $val['price']; ?> تومان</p>
                             </div>
                             <?php endforeach; ?>
                         </div>

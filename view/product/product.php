@@ -1,4 +1,5 @@
 <!--================Single Product Area =================-->
+<form action="index.php?c=basket&a=add&id=<?php echo $pro['id']; ?>" method="post">
 <div class="product_image_area">
     <div class="container">
         <div class="row justify-content-center">
@@ -8,7 +9,7 @@
                         <?php
                         $img1=$pro['img1'];
                         if ($img1 != ''){
-                        echo "<img src='admin/$img1' alt='first image of the product' class='img-fluid'>";
+                        echo "<img src='admin/$img1'  alt='first image of the product' class='img-fluid'>";
                         }
                         ?>
                     </div>
@@ -17,7 +18,7 @@
                     if ($img2 != ''){
                         echo "<div class='single_product_img'> ";
 
-                        echo "<img src='admin/$img2' alt='first image of the product' class='img-fluid'>";
+                        echo "<img src='admin/$img2' ' alt='first image of the product' class='img-fluid'>";
 
                         echo "</div>";
                              }
@@ -28,7 +29,7 @@
                     if ($img3 != ''){
                         echo "<div class='single_product_img'> ";
 
-                        echo "<img src='admin/$img3' alt='first image of the product' class='img-fluid'>";
+                        echo "<img src='admin/$img3'  alt='first image of the product' class='img-fluid'>";
 
                         echo "</div>";
                              }
@@ -49,7 +50,7 @@
                             <p>تعداد</p>
                             <div class="product_count d-inline-block">
                                 <span class="product_count_item inumber-decrement"> <i class="ti-minus"></i></span>
-                                <input class="product_count_item input-number" type="text" value="1" min="1" max="<?php echo $pro['count']; ?>">
+                                <input class="product_count_item input-number" type="text" name="count" value="1" min="1" max="<?php echo $pro['count']; ?>">
                                 <span class="product_count_item number-increment"> <i class="ti-plus"></i></span>
                             </div>
                             <p><?php echo $pro['price']; ?> تومان</p>
@@ -58,7 +59,7 @@
                             <?php if ($pro['count'] == 0){
                                 echo "<p style='color:red;'>ناموجود</p>";
                             }else{
-                                echo "<a href='#' class='btn_3'>اضافه کردن به سبد خرید</a>";
+                                echo "<input type='submit'  class='btn_3' value='اضافه کردن به سبد خرید' />";
                             }
                             ?>
                         </div>
@@ -68,6 +69,7 @@
         </div>
     </div>
 </div>
+</form>
 <!--================End Single Product Area =================-->
 <!-- subscribe part here -->
 <section class="subscribe_part section_padding">

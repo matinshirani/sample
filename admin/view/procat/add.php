@@ -7,13 +7,7 @@
                 <input type="text" class="form-control" name="data[title]" id="inputEmail3" placeholder="عنوان را وارد کنید">
             </div>
         </div>
-        <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">لینک</label>
 
-            <div class="col-sm-10">
-                <input type="text" class="form-control" name="data[url]" id="inputEmail3" placeholder="لینک را وارد کنید">
-            </div>
-        </div>
 
         <div class="col-md-6">
             <div class="form-group">

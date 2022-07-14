@@ -17,7 +17,7 @@
                 <td><?php echo $val['subject']; ?></td>
                 <td><?php echo $val['email']; ?></td>
                 <td><a href = "index.php?c=contact&a=detail&id=<?php echo $val['id']; ?>"><img src="view/public/dist/img/edit.png" alt="edit icon" class="img-circle img-size-32 mr-2"></a></td>
-                <td><a href = "index.php?c=procat&a=delete&id=<?php echo $val['id']; ?>"><img src="view/public/dist/img/delete.png" alt="delete icon" class="img-circle img-size-32 mr-2"></a></td>
+                <td><a href = "index.php?c=contact&a=delete&id=<?php echo $val['id']; ?>"><img src="view/public/dist/img/delete.png" alt="delete icon" class="img-circle img-size-32 mr-2"></a></td>
             <tr>
                 <?php endforeach; ?>
             </tbody>

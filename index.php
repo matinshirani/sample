@@ -11,6 +11,9 @@ if (file_exists("controller/$controller.php")){
     include_once "controller/$controller.php";
 }
 
+
+
 include_once 'view/layout/footer.php';
+
 
 ?>

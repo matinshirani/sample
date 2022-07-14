@@ -9,6 +9,10 @@ switch ($action){
         $id=$_GET['id'];
         $detail=$contact->detail_contact($id);
         break;
+    case 'delete':
+        $id=$_GET['id'];
+        $contact->delete_contact($id);
+        break;
 }
 
 include_once "view/contact/$action.php";

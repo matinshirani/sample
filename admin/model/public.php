@@ -26,7 +26,6 @@ class user extends config {
         }else{
             echo "دوباره امتحان کنید !";
         }
-
     }
 }
 class upload extends config{
@@ -39,7 +38,6 @@ class upload extends config{
         $to=$directory . $newname;
         move_uploaded_file($from, $to);
         return $to;
-
     }
 }
 

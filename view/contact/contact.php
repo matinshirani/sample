@@ -44,21 +44,21 @@
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-home"></i></span>
                     <div class="media-body">
-                        <h3>ایران، شیراز.</h3>
-                        <p>بلوار جمهوری</p>
+                        <h3><?php echo $settings['city']; ?></h3>
+                        <p><?php echo $settings['address']; ?></p>
                     </div>
                 </div>
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                     <div class="media-body">
-                        <h3>02112345678</h3>
-                        <p>شنبه تا پنجشنبه یکسره</p>
+                        <h3><?php echo $settings['tel']; ?>
+                        <p><?php echo $settings['days']; ?></p>
                     </div>
                 </div>
                 <div class="media contact-info">
                     <span class="contact-info__icon"><i class="ti-email"></i></span>
                     <div class="media-body">
-                        <h3>email@website.com</h3>
+                        <h3><?php echo $settings['email']; ?></h3>
                         <p>سوالات خود را از ما بپرسید!</p>
                     </div>
                 </div>

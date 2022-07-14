@@ -9,7 +9,8 @@ $menu=$header->menuparent();
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>قالب ریسپانسیو فروشگاهی pillomart :: دریافت شده از وب روبیک</title>
+    <title><?php echo $settings['title']; ?></title>
+    <meta name="description" content="<?php echo $settings['description']; ?>">
     <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="public/css/bootstrap4-rtl.min.css">
@@ -38,7 +39,7 @@ $menu=$header->menuparent();
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.php"> <img src="public/img/logo.png" alt="logo"> </a>
+                    <a class="navbar-brand" href="<?php echo $settings['link_logo']; ?>"> <img src="admin/<?php echo $settings['logo']; ?>" alt="logo"> </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -66,8 +67,7 @@ $menu=$header->menuparent();
                         </ul>
                     </div>
                     <div class="hearer_icon d-flex align-items-center">
-                        <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                        <a href="cart.html">
+                        <a href="<?php echo "index.php?c=basket&a=list&id=$_SESSION[id]"; ?>">
                             <i class="flaticon-shopping-cart-black-shape"></i>
                         </a>
                     </div>
@@ -76,13 +76,13 @@ $menu=$header->menuparent();
         </div>
     </div>
     <div class="search_input" id="search_input_box">
-        <div class="container ">
+        <!--<div class="container ">
             <form class="d-flex justify-content-between search-inner">
                 <input type="text" class="form-control" id="search_input" placeholder="جست و جو">
                 <button type="submit" class="btn"></button>
                 <span class="ti-close" id="close_search" title="Close Search"></span>
             </form>
-        </div>
+        </div>-->
     </div>
 </header>
 <!-- Header part end-->

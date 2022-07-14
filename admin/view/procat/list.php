@@ -15,7 +15,7 @@
             <?php foreach ($list as $val): ?>
             <tr>
                 <td><?php echo $val['title']; ?></td>
-                <td><?php echo $val['url']; ?></td>
+                <td><?php echo "index.php?c=product&a=category&id=$val[id]" ?></td>
                 <td><?php if ($val['status'] == '1'){
                         echo "فعال";
                     }elseif ($val['status'] == '0'){
